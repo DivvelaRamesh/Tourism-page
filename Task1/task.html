@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./color.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!---nav Section-->
+
+
+    <!---Banner Section-->
+    <div class="banner-bg1 pt-4 ">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="nav-bg container-fluid ">
+                <a class="navbar-brand" href="#"><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa4yhkDSysE-rLYG8IVu8kTR-dYv_JxonxQHk1xXmVOR7WEXcdxS77qM5wVtJ2GNzkjQM&usqp=CAU"
+                        class="nav-img " /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a id="nav-Item1" class="nav-link active" aria-current="page" href="#">Weekend Getaways</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="nav-Item2" class="nav-link" href="#">Transport Rates</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="nav-Item3" class="nav-link" href="#">Tour Type</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="nav-Item4" class="nav-link" href="#">Our Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="nav-Item5" class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="nav-Item6" class="nav-link" href="#">Flights</a>
+                        </li>
+                        <li class="nav-item pr-4">
+                            <a id="nav-Item7" class="nav-link" href="#">Hotels</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#"><button id="nav-button" class="nav-link">Register</button></a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container-fluid banner-bg">
+        <div class="row pt-5 pb-5">
+            <div class="col-12 col-md-6 loc-img">
+                <div>
+                    <center><img src="./location.png" height="550" width="500" /></center>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 ">
+                <div class="mt-5">
+                    <h3 class="book-now">Book Now</h3>
+                    <h1 class="heading-one">Let's Enjoy Your Trip With Live Holidys</h1>
+                    <p class="para-one">It is a long established fact that a reader will be distracted by the readable
+                        content of a page when looking at its layout.</p>
+                    <button class=" button-start">Start your trip</button>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-1">
+
+            </div>
+            <div class=" col-12 col-md-7 d-flex bg-white p-5 shadow  border-radius1  mt-5 ">
+                <h3 class="drop-downs pl-3  text-center">Location</h3>
+                <h3 class="drop-downs pl-5 text-center">Your Category</h3>
+                <h3 class="drop-downs pl-5 pr-3 text-center">Total Persons</h3>
+
+            </div>
+            <div class="col-12 col-md-3 p-5  border-radius2 shadow text-center mt-5 ">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                    class="bi bi-calendar4-week text-white" viewBox="0 0 16 16">
+                    <path
+                        d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1H2zm13 3H1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V5z" />
+                    <path
+                        d="M11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-2 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z" />
+                </svg>
+                <h3 class="drop-downs text-white blue-drop pt-3">Book Now</h3>
+
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="container-fluid mt-5 pb-5  pt-5">
+        <div class="row m-5">
+
+            <div class="col-6 col-md-8  ">
+                <p class="marks-green "></p>
+                <h1 class="heading-one ">Suggested Location</h1>
+                <p class="para-one">It is a long established fact that a reader will be distracted by th readable
+                    content of a page when looking at its layout.</p>
+                <button class="button-start mb-5">Featured <svg xmlns="http://www.w3.org/2000/svg" width="30"
+                        height="30" fill="currentColor" class="bi bi-chevron-down pl-2" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                    </svg></button>
+            </div>
+            <div class="col-6  col-md-4 text-right  pr-5">
+                <div class="row ">
+                    <div class="col-12 mt-5">
+
+                    </div>
+                    <div class="col-12 mt-5">
+
+                    </div>
+
+
+                    <div class="col-12 mt-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                            class="bi bi-chevron-left" id="Chevron-left" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
+                        </svg>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                            class="bi bi-chevron-right" id="Chevron-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4 text-center">
+                <img src="https://cdn.jumeirah.com/-/mediadh/dh/hospitality/jumeirah/hotels/dubai/burj-al-arab-jumeirah/hero/burj-al-arab-profile-exterior_6-4_landscape.jpg"
+                    class="w-100 Featured-images" />
+                <h3 class="mt-4 mb-4 img-head">Dubai</h3>
+                <button class="img-btn">Book Now</button>
+            </div>
+
+            <div class="col-12 col-md-4 text-center">
+                <img src="https://img.freepik.com/free-photo/toronto-sunrise_649448-3470.jpg"
+                    class="w-100 Featured-images" />
+                <h3 class="mt-4 mb-4 img-head">Canada</h3>
+                <button class="img-btn">Book Now</button>
+            </div>
+
+            <div class="col-12 col-md-4 text-center">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4elj_jJvE85OqlKNu0eBPs4IFPUgscIRLN_QsohKuuw&s"
+                    class="w-100 Featured-images" />
+                <h3 class="mt-4 mb-4 img-head">India</h3>
+                <button class="img-btn">Book Now</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid banner-bg2 mt-5 mb-5 pt-5">
+        <div class="row ">
+
+            <div class="col-2">
+            </div>
+            <div class="col-10 col-md-8 text-center">
+                <center>
+                    <p class="marks-green "></p>
+                </center>
+                <h1 class="heading-one ">Find Travel Perfection</h1>
+                <p class="para-two ">It is a long established fact that a reader will be distracted by th readable
+                    content of a page when looking at its layout.</p>
+            </div>
+
+
+
+
+            <div class="col-12 mt-5 mb-5">
+                <marquee>
+                    <img src="https://chardhampackage.com/img/travel/teen-dham-yatra-itinerary.jpg"
+                        class="gangotri-img pr-3" />
+                    <img src="https://img.freepik.com/free-photo/landscape-shot-beautiful-cholatse-mountains-body-water-khumbu-nepal_181624-24825.jpg"
+                        class="mountain-img pr-3" />
+                    <img class="snow-img pr-3"
+                        src="data:image/jpeg;base64,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" />
+                    <img src="https://previews.123rf.com/images/vwalakte/vwalakte1705/vwalakte170500361/78079551-big-ben-clock-tower-in-london-at-sunset-uk-.jpg"
+                        class="city-img pr-3" />
+                    <img src="https://thumbs.dreamstime.com/b/panoramic-view-big-ben-clock-tower-london-sunset-uk-53168325.jpg"
+                        class="city-2 pr-3" />
+                </marquee>
+            </div>
+
+            <div class="col-12 mb-5 text-center">
+                <button id="nav-button">View All</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container m-4">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="row">
+                    <div class="col-12 mt-5">
+                        <p class="marks-green "></p>
+                        <h1 class="heading-one ">The Perfect Travel Place For You & Your Family</h1>
+                        <p class="para-one">It is a long established fact that a reader will be distracted by th
+                            readable content of a page when looking at its layout.</p>
+                    </div>
+
+
+
+                    <div class="col-5 small-cards text-center p-4 m-3">
+                        <h3 class="blue-head">81</h3>
+                        <p class="small-card-para">Tours Avaliable</p>
+                        <button class="img-btn2">India <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+                            </svg></button>
+                    </div>
+
+
+                    <div class="col-5 small-cards text-center p-4 m-3">
+                        <h3 class="blue-head">1</h3>
+                        <p class="small-card-para">Tours Avaliable</p>
+                        <button class="img-btn2">US <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+                            </svg></button>
+                    </div>
+
+
+                    <div class="col-5 small-cards text-center p-4 m-3">
+                        <h3 class="blue-head">81</h3>
+                        <p class="small-card-para">Tours Avaliable</p>
+                        <button class="img-btn2">UK <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+                            </svg></button>
+                    </div>
+
+
+                    <div class="col-5 small-cards text-center p-4 m-3">
+                        <h3 class="blue-head">1</h3>
+                        <p class="small-card-para">Tours Avaliable</p>
+                        <button class="img-btn2">Italy <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+                            </svg></button>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+            <center>
+                <div class="col-6 col-md-6 mt-5 ">
+                    <img src="./reverse.png" height="550" width="500" class="reverse-img" />
+
+                </div>
+            </center>
+
+
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid  ">
+        <div class="row m-5">
+            <div class="col-12  large-image ">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid banner-bg2 p-5">
+        <div class="row  p-1">
+            <div class="col-6">
+                <h3 class=" heading-two pb-4">QUICK LINKS</h3>
+                <div class="row">
+
+
+                    <div class="col-6">
+                        <p class="para-footer"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="28"
+                                fill="currentColor" class="bi bi-caret-right-fill arrow-right" viewBox="0 0 16 16">
+                                <path
+                                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                            </svg> Home</p>
+                        <p class="para-footer"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="28"
+                                fill="currentColor" class="bi bi-caret-right-fill arrow-right" viewBox="0 0 16 16">
+                                <path
+                                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                            </svg> About Us</p>
+                        <p class="para-footer"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="28"
+                                fill="currentColor" class="bi bi-caret-right-fill arrow-right" viewBox="0 0 16 16">
+                                <path
+                                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                            </svg> Visa Assistance</p>
+                        <p class="para-footer"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="28"
+                                fill="currentColor" class="bi bi-caret-right-fill arrow-right" viewBox="0 0 16 16">
+                                <path
+                                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                            </svg> Travel Insurance</p>
+                    </div>
+
+
+                    <div class="col-6">
+                        <p class="para-footer"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="28"
+                                fill="currentColor" class="bi bi-caret-right-fill arrow-right" viewBox="0 0 16 16">
+                                <path
+                                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                            </svg> Holidays</p>
+                        <p class="para-footer"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="28"
+                                fill="currentColor" class="bi bi-caret-right-fill arrow-right" viewBox="0 0 16 16">
+                                <path
+                                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                            </svg> Partner with Us</p>
+                        <p class="para-footer"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="28"
+                                fill="currentColor" class="bi bi-caret-right-fill arrow-right" viewBox="0 0 16 16">
+                                <path
+                                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                            </svg> Eurail </p>
+                        <p class="para-footer"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="28"
+                                fill="currentColor" class="bi bi-caret-right-fill arrow-right" viewBox="0 0 16 16">
+                                <path
+                                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                            </svg> Contact Us</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-6 pl-5">
+                <h3 class=" heading-two pb-4">RECENT TRIPS</h3>
+                <div class="row">
+                    <div class="col-6">
+                        <p class="para-footer"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="28"
+                                fill="currentColor" class="bi bi-caret-right-fill arrow-right" viewBox="0 0 16 16">
+                                <path
+                                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                            </svg> Explore India</p>
+                        <p class="para-footer"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="28"
+                                fill="currentColor" class="bi bi-caret-right-fill arrow-right" viewBox="0 0 16 16">
+                                <path
+                                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                            </svg> Canada</p>
+                        <p class="para-footer"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="28"
+                                fill="currentColor" class="bi bi-caret-right-fill arrow-right" viewBox="0 0 16 16">
+                                <path
+                                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                            </svg> Italy</p>
+                        <p class="para-footer"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="28"
+                                fill="currentColor" class="bi bi-caret-right-fill arrow-right" viewBox="0 0 16 16">
+                                <path
+                                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                            </svg> Singapore</p>
+                    </div>
+
+
+                    <div class="col-6">
+                        <p class="para-footer"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="28"
+                                fill="currentColor" class="bi bi-caret-right-fill arrow-right" viewBox="0 0 16 16">
+                                <path
+                                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                            </svg> USA</p>
+                        <p class="para-footer"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="28"
+                                fill="currentColor" class="bi bi-caret-right-fill arrow-right" viewBox="0 0 16 16">
+                                <path
+                                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                            </svg> Switzerland</p>
+                        <p class="para-footer"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="28"
+                                fill="currentColor" class="bi bi-caret-right-fill arrow-right" viewBox="0 0 16 16">
+                                <path
+                                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                            </svg> France</p>
+                        <p class="para-footer"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="28"
+                                fill="currentColor" class="bi bi-caret-right-fill arrow-right" viewBox="0 0 16 16">
+                                <path
+                                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                            </svg> Malaysis</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-12 pb-3 pt-3">
+                <hr color="grey" />
+            </div>
+
+            <div class="col-4 ">
+                <h1 class="heading-three ">STAY IN THE TOURISM</h1>
+            </div>
+
+            <div class="col-4">
+                <input type="text" placeholder="Email" class="place-holder">
+            </div>
+
+            <div class="col-3 ">
+                <button class="button-start1 ">Submit</button>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
